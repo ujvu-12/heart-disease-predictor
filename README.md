@@ -12,7 +12,7 @@ Built with **Python, Scikit-Learn, Pandas, and Streamlit**, and deployed on **St
 
 Here’s a preview of the deployed app:
 
-![Demo](demo.jpg)
+![Demo](demo.jpeg)
 
 ---
 
