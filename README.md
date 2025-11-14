@@ -8,14 +8,22 @@ Built with **Python, Scikit-Learn, Pandas, and Streamlit**, and deployed on **St
 
 ---
 
+## 📸 Demo Screenshot
+
+Here’s a preview of the deployed app:
+
+![Demo](demo.jpg)
+
+---
+
 ## 🚀 Features
 
 - ✔ Logistic Regression model trained on the Heart Disease UCI Dataset  
 - ✔ Automatic data cleaning & categorical encoding  
-- ✔ Standardization using Scikit-Learn's StandardScaler  
-- ✔ Real-time predictions  
-- ✔ Interactive and user-friendly Streamlit interface  
-- ✔ Fully deployed online with a public access link  
+- ✔ Standardization with Scikit-Learn  
+- ✔ Interactive real-time predictions  
+- ✔ Beautiful Streamlit UI  
+- ✔ Fully deployed online  
 
 ---
 
@@ -39,6 +47,7 @@ heart-disease-predictor/
 │── train_model.py        # Model Training Script
 │── heart_model.pkl       # Saved Model
 │── heart.csv             # Dataset
+│── demo.jpg              # App screenshot
 │── requirements.txt      # Dependencies
 │── README.md             # Project Documentation
 ```
@@ -49,7 +58,7 @@ heart-disease-predictor/
 
 - **Source:** UCI / Kaggle  
 - **File:** `heart.csv`  
-- **Description:** Contains medical attributes such as age, chest pain type, cholesterol, ECG results, etc.
+- Contains: age, sex, chest pain type, ECG results, cholesterol, heart rate, etc.
 
 ---
 
@@ -61,23 +70,23 @@ git clone https://github.com/ujvu-12/heart-disease-predictor.git
 cd heart-disease-predictor
 ```
 
-### 2️⃣ Create & Activate Virtual Environment
+### 2️⃣ Create Virtual Environment
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
 
-### 3️⃣ Install Dependencies
+### 3️⃣ Install Requirements
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4️⃣ Train the Model (optional)
+### 4️⃣ Train Model (optional)
 ```bash
 python3 train_model.py
 ```
 
-### 5️⃣ Run the App
+### 5️⃣ Run App
 ```bash
 streamlit run app.py
 ```
@@ -88,16 +97,7 @@ streamlit run app.py
 
 - **Accuracy:** ~82–85%  
 - **Model:** Logistic Regression  
-- **Preprocessing:**  
-  - Encoded categorical variables  
-  - Standardized numeric features  
-  - Imputed missing values  
-
----
-
-## 📸 Demo Screenshot
-
-(Add one after running locally)
+- **Preprocessing:** handled missing values, encoded categorical features, standardized numerical data  
 
 ---
 
@@ -107,5 +107,4 @@ streamlit run app.py
 📧 Email: ujvwalareddyp@gmail.com  
 🔗 GitHub: https://github.com/ujvu-12  
 
-⭐ **If you like this project, please star the repo!**
-
+⭐ If you found this project helpful, don't forget to **star the repo**!
